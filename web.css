@@ -15,9 +15,10 @@ p{
     color: black;
 }
 
-.container{
-    
-    border-radius: 10px;
+.container img{
+
+    padding: 10px;
+    margin: auto;
 }
 
 
