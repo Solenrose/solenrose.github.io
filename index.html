@@ -12,8 +12,11 @@
 
         <style>
             body{
-                background: #ffffff url("digital_eye.png") no-repeat center top;
+                background-image: #ffffff url("digital_eye.png");
+                background-repeat: no-repeat;
+                background-position: center top;
                 margin-top: 200px;
+                background-attachment: fixed;
             }
             #panel, .flip{
                 padding: 10px;
@@ -46,6 +49,11 @@
 
     </script>
     <body>
+
+        <div class = "top_logo">
+            <img id = "logo_img" src = "digital_eye.png" alt = "logo failed to load" width = "50" height = "50">
+        </div>
+
         
         <h1 id = "heading1">
             Placeholder heading for art portfolio
