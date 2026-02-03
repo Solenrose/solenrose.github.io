@@ -17,7 +17,7 @@
             #panel, .flip{
                 padding: 10px;
                 text-align: center;
-                background-color: darkgrey;
+                background-color: transparent;
                 color: white;
                 border: solid 1px rgb(0, 0, 0);
                 margin-left: 200px;
@@ -39,6 +39,26 @@
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333333;
+            }
+            ul li{
+                float: left;
+            }
+            ul li a{
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            ul li a:hover{
+                background-color: #111111;
             }
             
         </style>
@@ -62,7 +82,13 @@
             Shelley Wieburg
         </h1>
 
-        <p class = "flip" onclick = "openPanel()">
+        <ul>
+            <li><a href = "home">Home</a></li>
+            <li><a href = "contact">Contact</a></li>
+            <li><a href = "about">About</a></li>
+        </ul>
+
+        <!--p class = "flip" onclick = "openPanel()">
             About
         </p>
 
@@ -73,7 +99,7 @@
             <p>
                 (about me section here?)
             </p>
-        </div>
+        </div-->
 
         <div class = "container">
             <img id = "art_image" src = "digital_eye.png" alt = "artwork is supposed to appear here" style = "width: 33%">
