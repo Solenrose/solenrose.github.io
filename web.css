@@ -19,13 +19,14 @@ p{
     width: 100%;
     height: 100%;
     border: 1px solid black;
+    padding: 15px;
 }
 
 .container img{
 
     padding: 10px;
     margin: auto;
-    display: block;
+    display: grid;
     margin-left: auto;
     margin-right: auto;
 }
