@@ -18,3 +18,17 @@ p{
 .container img{
     border-radius: 10px;
 }
+
+panel{
+    display: none;
+}
+
+.flip panel{
+    padding: 10px;
+    text-align: center;
+    background-color: bisque;
+    color: white;
+    border: solid 1px #a6d8a8;
+    margin: auto;
+    cursor: pointer;
+}

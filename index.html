@@ -12,16 +12,30 @@
     </head>
     <link rel = "stylesheet" href = "/web.css">
     <script>
-
+        function openPanel()
+        {
+            document.getElementById("panel").style.display = "block";
+        }
 
     </script>
     <body>
         <h1 id = "heading1">
             Placeholder heading for art portfolio
         </h1>
-        <p id = "paragraph">
+
+        <p id = "paragraph" class = "flip" onclick = "openPanel()">
             This is a placeholder paragraph
         </p>
+
+        <div id = "panel">
+            <p>
+                panel content goes here
+            </p>
+            <p>
+                (about me section here?)
+            </p>
+        </div>
+
         <div class = "container">
             <img id = "art_image" src = "digital_eye.png" alt = "artwork is supposed to appear here" width = "300" height = "300">
         </div>
