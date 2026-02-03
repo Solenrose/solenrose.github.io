@@ -24,6 +24,7 @@ p{
 .top_logo logo_img{
     padding: 10px;
     margin: center;
+    text-align: center;
     display: inline-block;
 }
 
