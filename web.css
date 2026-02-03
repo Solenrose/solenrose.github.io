@@ -16,16 +16,16 @@ p{
 }
 
 .container{
-    display: flex;
+    display: grid;
     border: 1px solid black;
     padding: 15px;
     gap: 10px;
+    grid-template-columns: repeat(auto-fix, minmax(200px, 1fr));
 }
 
 .container img{
 
     padding: 10px;
-    flex: 1;
     object-fit: cover;
 }
 
