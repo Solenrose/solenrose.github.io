@@ -27,8 +27,7 @@ p{
     padding: 10px;
     margin: auto;
     display: grid;
-    margin-left: auto;
-    margin-right: auto;
+    place-items: center;
 }
 
 
