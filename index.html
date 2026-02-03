@@ -55,8 +55,12 @@
                 text-decoration: none;
                 font-family: Copperplate;
             }
-            ul li a:hover{
+            ul li a:hover:not(.active){
                 background-color: #111111;
+            }
+
+            ul li a.active{
+                background-color: rgb(252, 38, 56)
             }
             
         </style>
@@ -81,7 +85,7 @@
         </h1>
 
         <ul>
-            <li><a href = "home">Home</a></li>
+            <li><a class = "active" href = "home">Home</a></li>
             <li><a href = "contact">Contact</a></li>
             <li><a href = "about">About</a></li>
         </ul>
